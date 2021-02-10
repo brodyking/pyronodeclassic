@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>☯ PyroNode ☯</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <ul>
+          <li><a class="green nav" href="#home">Pyronode.us</a></li>
+          <li class="nav" style="float:right; margin-right:0px;">
+            <a class="nav" href="login.html">Login</a>
+          </li>
+          <li style="float:right;">
+            <span class="grey">&nbsp; •</span>
+          </li>
+          <li class="nav" style="float:right; margin-right:0px;">
+            <a class="nav" href="reg.html">Register</a>
+          </li>
+          <li style="float:right;">
+            <span class="grey">•</span>
+          </li>
+          <li style="float:right;">
+            <a href="index.html" class="nav">Homepage</a>
+          </li>
+        </ul>
+      </header>
+    <div>
+        <h1>Error 404</h1>
+        Page not found!
+    </div>
+     <header>
+        <ul>
+          <li><a class="green nav" href="#home">Pyronode.us</a></li>
+          <li class="nav" style="float:right; margin-right:0px;">
+            <a class="nav" href="login.html">Login</a>
+          </li>
+          <li style="float:right;">
+            <span class="grey">&nbsp; •</span>
+          </li>
+          <li class="nav" style="float:right; margin-right:0px;">
+            <a class="nav" href="reg.html">Register</a>
+          </li>
+          <li style="float:right;">
+            <span class="grey">•</span>
+          </li>
+          <li style="float:right;">
+            <a href="index.html" class="nav">Homepage</a>
+          </li>
+        </ul>
+      </header>
+    </main>
+  </body>
+</html>
+
+<style>
+/* Fonts */
+@font-face {
+  font-family: Monotype;
+  src: url(
+      https://cdn.glitch.com/311059ae-82ee-41fb-98c3-64025d667b11%2Ffont.ttf?v=1608447209208
+    )format("truetype");
+}
+
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Monotype;
+  color: white;
+  background-color: #222222;
+  font-size: 17px;
+  padding: 0px;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  padding: 0px;
+}
+
+header {
+  width: auto;
+  height: auto;
+  border: 2px solid grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  background-color: #1f1f1f;
+}
+
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+.header {
+  margin: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+}
+
+li {
+  float: left;
+  margin-right: 10px;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a.nav:hover {
+  color: #70ffa0;
+  text-decoration: underline;
+}
+
+a.navreg:hover {
+  color: #ff7070;
+  text-decoration: underline;
+}
+
+
+.active {
+  color: #71ab8a;
+}
+
+hr {
+  color: grey;
+}
+
+.green {
+  color: #70ffa0;
+}
+
+.red {
+  color: #ff7070;
+}
+
+content {
+  border: 2px solid grey;
+  margin-top: 10px;
+  background-color: #1f1f1f;
+}
+
+
+div.left {
+  height: auto;
+  border: 2px solid grey;
+  margin-top: 2%;
+  padding: 10px;
+  background-color: #1f1f1f;
+  width: 60%;
+}
+
+div {
+  height: auto;
+  width: auto;
+  border: 2px solid grey;
+  margin-top: 2%;
+  padding: 10px;
+  background-color: #1f1f1f;
+}
+
+div:hover {
+  background-color: #1f1f1f;
+}
+
+
+a.link {
+  color: #70ffa0;
+}
+
+a.linkreg {
+  color: #ff7070;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.right {
+  float: right;
+  width: 30%;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .right {
+  float: right;
+  width: 30%;
+  visibility: hidden;
+  display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+div.left {
+  height: auto;
+  width: auto;
+  border: 2px solid grey;
+  margin-top: 2%;
+  padding: 10px;
+  background-color: #1f1f1f;
+}
+}
+
+div.search {
+  
+}
+
+button {
+  background: #222222;
+  color: white;
+  padding: 5px;
+  border: 1px outset white;
+}
+
+.form-group {
+  border: 0px solid black;
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+}
+
+.tab {
+  border: 0px solid white;
+  margin: 0px;
+  padding: 0px;
+}
+</style>
